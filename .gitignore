@@ -1,0 +1,25 @@
+# Carpetas de NetBeans
+nbproject/private/
+build/
+dist/
+test/
+
+# Archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar todo menos los tp**
+/src/*
+!/src/tp*/
+
