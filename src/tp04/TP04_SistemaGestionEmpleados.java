@@ -3,15 +3,13 @@ package tp04;
 /**
  * <h2>Sistema de Gestión de Empleados</h2>
  * <p>
- * Modelar una clase <b>Empleado</b> que represente a un trabajador en una
- * empresa.<br>
- * Esta clase debe incluir constructores sobrecargados, métodos sobrecargados y
- * el uso de atributos aplicando encapsulamiento y métodos estáticos para llevar
- * control de los objetos creados.
+ * Modelar una clase <b>Empleado</b> que represente a un trabajador en una empresa.<br>
+ * Esta clase debe incluir constructores sobrecargados, métodos sobrecargados y 
+ * el uso de atributos aplicando encapsulamiento y métodos estáticos 
+ * para llevar control de los objetos creados.
  * </p>
  * @author Guido Sampaoli
- * @see
- * <a href="https://github.com/guidosampaoli/UTN_Prog2_Java/tree/main/src" target="_blank">GitHub - guidosampaoli</a>
+ * @see <a href="https://github.com/guidosampaoli/UTN_Prog2_Java/tree/main/src" target="_blank">GitHub - guidosampaoli</a>
  */
 
 public class TP04_SistemaGestionEmpleados {
