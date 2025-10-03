@@ -1,25 +1,36 @@
-# Carpetas de NetBeans
-nbproject/private/
+# =========================
+# Java + NetBeans .gitignore
+# =========================
+
+# Compilados
+*.class
+
+# Archivos de log
+*.log
+
+# Directorios de build/dist (generados por NetBeans al compilar)
 build/
 dist/
-test/
 
-# Archivos de compilación
-*.class
-*.jar
-*.war
-*.ear
+# Ignorar todo dentro de src
+/src/*
 
-# Archivos temporales
-*.log
-*.tmp
-*.bak
+# Pero permitir los paquetes que empiecen con "tp"
+/src/tp*/
 
-# Configuración del sistema
+# Configuración privada de NetBeans (local de cada dev)
+nbproject/private/
+
+# Directorios temporales de NetBeans
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Archivos de IDEs varios
+*.iml
+.idea/
+.vscode/
+
+# Archivos de sistema
 .DS_Store
 Thumbs.db
-
-# Ignorar todo menos los tp**
-/src/*
-!/src/tp*/
-
