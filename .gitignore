@@ -18,7 +18,7 @@ dist/
 # Pero no ignorar las carpetas tp*
 !/src/tp*/
 
-# Y tampoco ignorar el contenido dentro de ellas
+# Tampoco ignorar el contenido dentro de ellas
 !/src/tp*/**
 
 # Configuración privada de NetBeans (local de cada dev)
