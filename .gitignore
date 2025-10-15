@@ -15,8 +15,11 @@ dist/
 # Ignorar todo dentro de src
 /src/*
 
-# Pero permitir los paquetes que empiecen con "tp"
-/src/tp*/
+# Pero no ignorar las carpetas tp*
+!/src/tp*/
+
+# Y tampoco ignorar el contenido dentro de ellas
+!/src/tp*/**
 
 # Configuración privada de NetBeans (local de cada dev)
 nbproject/private/
