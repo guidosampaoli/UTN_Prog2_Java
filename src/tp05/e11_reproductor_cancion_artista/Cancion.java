@@ -1,0 +1,25 @@
+package tp05.e11_reproductor_cancion_artista;
+
+public class Cancion {
+
+    private String titulo;
+    private Artista artista;
+
+    public Cancion(String titulo, Artista artista) {
+        this.titulo = titulo;
+        this.artista = artista;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public Artista getArtista() {
+        return artista;
+    }
+
+    @Override
+    public String toString() {
+        return "Cancion{" + "titulo=" + titulo + ", artista=" + artista + '}';
+    }
+}
