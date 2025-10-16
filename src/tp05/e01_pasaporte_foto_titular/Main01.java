@@ -17,7 +17,7 @@ package tp05.e01_pasaporte_foto_titular;
 
 import java.time.LocalDate;
 
-public class Main {
+public class Main01 {
     public static void main(String[] args) {
         Titular titular = new Titular("David Gómez", 48355625);
         Foto foto = new Foto("foto.jpg", "JPG");
