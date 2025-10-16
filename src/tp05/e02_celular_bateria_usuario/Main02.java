@@ -15,13 +15,13 @@ package tp05.e02_celular_bateria_usuario;
  * @see <a href="https://github.com/guidosampaoli/UTN_Prog2_Java/tree/main/src" target="_blank">GitHub - guidosampaoli</a>
  */
 
-public class Main {
+public class Main02 {
     
     public static void main(String[] args) {
         
         Usuario usuario = new Usuario("Juan Carlos Álvarez", "26233403");
         Bateria bateria = new Bateria("Li-ion", "5000 mAh");
-        Celular celular = new Celular("110022554612235548", "Xiaomi", bateria, usuario);
+        Celular celular = new Celular("110022554612235548", "Xiaomi", "Redmi Note 12", bateria, usuario);
         
         
         celular.mostrarInfo();
