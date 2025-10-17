@@ -1,0 +1,22 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><element><id>UMLClass</id><coordinates><x>180</x><y>300</y><w>240</w><h>84</h></coordinates><panel_attributes>EditorVideo
+--
+
+--
++ exportar(String, Proyecto) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>132</x><y>96</y><w>264</w><h>120</h></coordinates><panel_attributes>Render
+--
+- formato : String
+- proyecto : Proyecto
+--
++ getFormato() : String
++ getProyecto() : Proyecto
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>504</x><y>96</y><w>216</w><h>120</h></coordinates><panel_attributes>Proyecto
+--
+- nombre : String
+- duracionMin: int
+--
++ getNombre() : String
++ getDuracionMin() : int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>384</x><y>132</y><w>144</w><h>60</h></coordinates><panel_attributes>lt=-
+m1=1
+
+</panel_attributes><additional_attributes>100;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>204</y><w>60</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;30;80</additional_attributes></element></diagram>
