@@ -95,5 +95,11 @@ public class Inventario {
         }
         return productosFiltrados;
     }
+    
+    public void mostrarCategoriasDisponibles() {
+        for (CategoriaProducto categ : CategoriaProducto.values()) {
+            System.out.println(categ.name() + " -> " + categ.getDescripcion());
+        }
+    }
 
 }

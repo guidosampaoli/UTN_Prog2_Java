@@ -108,9 +108,7 @@ public class Principal {
         
         System.out.println("\n**********************\n");
         System.out.println("Categorías disponibles:");
-        for (CategoriaProducto categ : CategoriaProducto.values()) {
-            System.out.println(categ.name() + " -> " + categ.getDescripcion());
-        }
+        inventario.mostrarCategoriasDisponibles();
         
     }
 
