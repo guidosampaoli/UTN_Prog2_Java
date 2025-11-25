@@ -37,3 +37,6 @@ nbdist/
 # Archivos de sistema
 .DS_Store
 Thumbs.db
+
+# Carpeta Test
+/test/
